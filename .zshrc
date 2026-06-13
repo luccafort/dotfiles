@@ -113,3 +113,5 @@ alias history='history -E'
 function cd() {
   builtin cd $@ && ls;
 }
+
+export PATH="$HOME/.local/bin:$PATH"
